@@ -9,5 +9,7 @@ import FlatlistDemo from './FlatlistDemo';
 import WelcomeIntro from './WelcomeIntro';
 import FlatListDemo2 from './FlatListDemo2';
 import TextFlatlistDemo from './TextFlatlistDemo';
+import InputDemo from './InputDemo';
+import OTPDemo from './OTPDemo';
 
-AppRegistry.registerComponent(appName, () => TextFlatlistDemo);
+AppRegistry.registerComponent(appName, () => OTPDemo);

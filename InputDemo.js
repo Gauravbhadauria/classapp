@@ -102,6 +102,9 @@ const InputDemo = () => {
           justifyContent: 'center',
           alignItems: 'center',
         }}
+        
+        hitSlop={{top: 100, left: 50, right: 50, bottom: 100}}
+        //pressRetentionOffset={200}
         onPress={() => {
           validate();
         }}>

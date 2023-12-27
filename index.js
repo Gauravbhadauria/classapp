@@ -2,7 +2,7 @@
  * @format
  */
 
-import {AppRegistry, FlatList, FlatListComponent} from 'react-native';
+import {AppRegistry, Button, FlatList, FlatListComponent} from 'react-native';
 import App from './App';
 import {name as appName} from './app.json';
 import FlatlistDemo from './FlatlistDemo';
@@ -11,5 +11,8 @@ import FlatListDemo2 from './FlatListDemo2';
 import TextFlatlistDemo from './TextFlatlistDemo';
 import InputDemo from './InputDemo';
 import OTPDemo from './OTPDemo';
+import Buttons from './Buttons';
+import Buttons2 from './Buttons2';
+import Modals from './Modals';
 
-AppRegistry.registerComponent(appName, () => OTPDemo);
+AppRegistry.registerComponent(appName, () => Modals);

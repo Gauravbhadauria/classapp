@@ -15,7 +15,7 @@ const Buttons2 = () => {
       <TouchableOpacity
         style={{
           width: '90%',
-          height: 50,
+          height: moderateScale(50),
           backgroundColor: clicked ? 'orange' : 'red',
           flexDirection: 'row',
           justifyContent: 'center',

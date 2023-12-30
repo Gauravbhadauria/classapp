@@ -14,5 +14,6 @@ import OTPDemo from './OTPDemo';
 import Buttons from './Buttons';
 import Buttons2 from './Buttons2';
 import Modals from './Modals';
+import ResponsiveDemo from './ResponsiveDemo';
 
-AppRegistry.registerComponent(appName, () => Modals);
+AppRegistry.registerComponent(appName, () => ResponsiveDemo);
